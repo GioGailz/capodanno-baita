@@ -151,47 +151,10 @@
         <section class="card">
             <h2>✍️ Conferma Partecipazione (RSVP)</h2>
             <p style="margin-bottom: 15px; color: #bdc3c7;">Compila il modulo qui sotto per inviare direttamente la tua risposta al Foglio Google ufficiale del Capodanno:</p>
-            
-            <form id="rsvpForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeHv1U5O9uX2h3PYuxGEZx9LoQHGo8v7n1TQbBKuqCq2Olq5g/formResponse" method="POST" target="hidden_iframe" onsubmit="handleFormSubmit(event)">
-                <div class="form-group">
-                    <label for="name">Il tuo Nome e Cognome:</label>
-                    <input type="text" id="name" name="entry.1000001" required placeholder="Es. Mario Rossi">
-                </div>
-                
-                <div class="form-group">
-                    <label for="arrival">Giorno di Arrivo:</label>
-                    <select id="arrival" name="entry.1000002" required>
-                        <option value="30 Dicembre">30 Dicembre</option>
-                        <option value="31 Dicembre">31 Dicembre</option>
-                        <option value="1 Gennaio">1 Gennaio</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="departure">Giorno di Partenza:</label>
-                    <select id="departure" name="entry.1000003" required>
-                        <option value="1 Gennaio">1 Gennaio</option>
-                        <option value="2 Gennaio" selected>2 Gennaio</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label class="checkbox-group">
-                        <input type="checkbox" id="sober" name="entry.1000004" value="Astemio">
-                        🥤 <strong>NON berrò alcolici / Astemio</strong>
-                    </label>
-                </div>
-
-                <button type="submit" class="btn-submit">Conferma la tua Presenza 🚀</button>
+            <button href="https://forms.gle/aHsFtsKbCsbxxKgi7" type="submit" class="btn-submit">Conferma la tua Presenza 🚀</button>
             </form>
 
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
-
-            <div style="margin-top: 15px; text-align: center;">
-                <a href="https://forms.gle/aHsFtsKbCsbxxKgi7" target="_blank" style="color: var(--gold); text-decoration: underline; font-size: 0.9rem;">
-                    Oppure apri direttamente il Modulo Google in una nuova scheda ↗️
-                </a>
-            </div>
 
             <hr style="margin: 25px 0; border: none; border-top: 1px solid rgba(255,255,255,0.1);">
 
